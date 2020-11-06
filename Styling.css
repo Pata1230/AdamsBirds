@@ -1,0 +1,99 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 10vh auto auto 1fr;
+margin: 0;
+padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .nav-area {
+    position: fixed;
+    top: 0.5vw;
+    left: 3vw;
+    font-size: 3rem;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: -15vw;
+    width: 14vw;
+    height: 100vh;
+    transition: 400ms ease-in-out;
+    box-shadow: 0 1rem 1rem rgb(39, 38, 38);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  
+  nav a {
+    font-size: 3rem;
+    color: black;
+    text-decoration: none;
+    transition: filter 600ms ease-out;
+  }
+  
+  
+  
+  .nav-toggle {
+    display: none;
+  }
+  
+  .nav-toggle:checked + nav {
+    left: 0;
+  }
+  
+nav {
+grid-column: 1/2;
+
+color: white;
+background-color:#96D56D;
+display: flex;
+justify-content: center; 
+align-items: center;
+}
+header {
+    
+    grid-column: 1/4; 
+    
+   
+    color: white;
+    background-color:#96D56D ;
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+  }
+  .fågell{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2vw;
+      height: 80vh;
+      background-image:url(https://images.unsplash.com/photo-1518001589401-1743b61d1def?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80) ;
+ width: 100vw;
+ background-position: center;
+ background-size: cover;
+    }
