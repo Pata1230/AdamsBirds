@@ -1,4 +1,3 @@
- 
 body {
   font-family: "Oxygen", sans-serif;
   font-size: 2vw;
@@ -6,27 +5,34 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+    90deg,
+    hsla(298, 68%, 90%, 1) 0%,
+    hsla(30, 82%, 91%, 1) 100%
+  );z
 }
-a{
+a {
   color: black;
   text-decoration: none;
 }
-a:hover{
-  color: #96d56d;
+a:hover {
+  color: red;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
- 
+
 .nav-area {
   position: fixed;
   top: 0.5vw;
   left: 3vw;
   font-size: 3vw;
 }
- 
+
 nav {
   position: fixed;
   top: 0;
@@ -36,7 +42,7 @@ nav {
   transition: 400ms ease-in-out;
   box-shadow: 0 1rem 1rem rgb(39, 38, 38);
 }
- 
+
 nav ul {
   list-style: none;
   display: flex;
@@ -45,7 +51,7 @@ nav ul {
   align-items: center;
   height: 100%;
 }
- 
+
 nav a {
   display: flex;
   font-size: 2.4vw;
@@ -53,36 +59,33 @@ nav a {
   text-decoration: none;
   transition: filter 600ms ease-out;
 }
- 
+
 .nav-toggle {
   display: none;
 }
- 
+
 .nav-toggle:checked + nav {
   left: 0;
 }
- 
+
 nav {
-  
- 
   color: white;
-  background-color: #96d56d;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 header {
   height: 10vh;
- 
+
   color: white;
   background-color: #96d56d;
- 
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .fågell {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,99 +95,82 @@ header {
   width: 100vw;
   background-position: center;
   background-size: cover;
+  box-shadow: 0 0.5rem 0.5rem rgb(39, 38, 38);
 }
- 
- 
+
 .main-grid {
-    
   display: grid;
   grid-template-columns: 1fr 2fr 0.5fr 2fr;
   grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
- 
 }
-.deltitel{
-   margin-top: 10%;
-    grid-column: 1/5;
-    text-align: center;
-    justify-content: center;
+.deltitel {
+  margin-top: 10%;
+  grid-column: 1/5;
+  text-align: center;
+  justify-content: center;
 }
-.FågelText1{
-    font-size: 2.5vw;
-    grid-column: 2;
+.FågelText1 {
+  font-size: 2.5vw;
+  grid-column: 2;
 }
-.Fågelbild2{
+.Fågelbild2 {
   margin-top: -10%;
 
-    width: 100%;
-    height: 80%   ;
-    display: flex;
-    grid-column: 4;
-    grid-row: 2fr;
-    box-shadow: 0 1rem 1rem rgb(39, 38, 38);
+  width: 100%;
+  height: 80%;
+  display: flex;
+  grid-column: 4;
+  grid-row: 2fr;
+  box-shadow: 0 1rem 1rem rgb(39, 38, 38);
 }
- 
-.FågelText2{
-  
-    font-size: 2.5vw;
-    grid-column: 2;
+
+.FågelText2 {
+  font-size: 2.5vw;
+  grid-column: 2;
 }
-.Fågelbild3{
+.Fågelbild3 {
   margin-top: -2%;
-    width: 100%;
-    height: 88%   ;
-    display: flex;
-    grid-column: 4;
-    grid-row: 2fr;
-    box-shadow: 0 1rem 1rem rgb(39, 38, 38);
+  width: 100%;
+  height: 88%;
+  display: flex;
+  grid-column: 4;
+  grid-row: 2fr;
+  box-shadow: 0 1rem 1rem rgb(39, 38, 38);
 }
 
-.FågelText3{
-    font-size: 2.5vw;
-    grid-column: 2;
+.FågelText3 {
+  font-size: 2.5vw;
+  grid-column: 2;
 }
-.Fågelbild4{
+.Fågelbild4 {
   margin-top: -5%;
-    width: 100%;
-    height: 80%   ;
-    display: flex;
-    grid-column: 4;
-    grid-row: 2fr;
-    box-shadow: 0 1rem 1rem rgb(39, 38, 38);
-}
- 
-.FågelText4{
-    font-size: 2.5vw;
-    grid-column: 2;
+  width: 100%;
+  height: 75%;
+  display: flex;
+  grid-column: 4;
+  grid-row: 2fr;
+  box-shadow: 0 1rem 1rem rgb(39, 38, 38);
 }
 
-.Fågelbild5{
-    width: 100%;
-    height: 88% ;
-    display: flex;
-    grid-column: 4;
-    grid-row: 2fr;
-    box-shadow: 0 1rem 1rem rgb(39, 38, 38);
+.FågelText4 {
+  font-size: 2.5vw;
+  grid-column: 2;
 }
 
+.Fågelbild5 {
+  width: 100%;
+  height: 88%;
+  display: flex;
+  grid-column: 4;
+  grid-row: 2fr;
+  box-shadow: 0 1rem 1rem rgb(39, 38, 38);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
-    height: 10vh;
-    background-color: #96d56d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3vw;
+footer {
+  height: 10vh;
+  background-color: #96d56d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
 }
