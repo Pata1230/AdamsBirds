@@ -13,7 +13,7 @@ body {
     text-decoration: none;
   }
   a:hover{
-    color: white;
+    color: lightskyblue;
   }
   * {
     margin: 0;
@@ -67,7 +67,7 @@ body {
     
    
     color: white;
-    background-color: #96d56d;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
