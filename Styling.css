@@ -77,10 +77,8 @@ nav {
 }
 header {
   height: 10vh;
-
   color: white;
   background-color: #96d56d;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,14 +113,19 @@ header {
 }
 .Fågelbild2 {
   margin-top: -10%;
-
-  width: 100%;
-  height: 80%;
-  display: flex;
   grid-column: 4;
-  grid-row: 2fr;
+  width: 100%;
+ height: 80%;
+  
+  
+  
   box-shadow: 0 1rem 1rem rgb(39, 38, 38);
 }
+.Fågelbild2 img {
+  width: 100%;
+}
+
+
 
 .FågelText2 {
   font-size: 2.5vw;
@@ -132,9 +135,7 @@ header {
   margin-top: -2%;
   width: 100%;
   height: 80%;
-  display: flex;
   grid-column: 4;
-  grid-row: 2fr;
   box-shadow: 0 1rem 1rem rgb(39, 38, 38);
 }
 
@@ -146,9 +147,7 @@ header {
   margin-top: -5%;
   width: 100%;
   height: 75%;
-  display: flex;
   grid-column: 4;
-  grid-row: 2fr;
   box-shadow: 0 1rem 1rem rgb(39, 38, 38);
 }
 
@@ -160,9 +159,7 @@ header {
 .Fågelbild5 {
   width: 100%;
   height: 88%;
-  display: flex;
   grid-column: 4;
-  grid-row: 2fr;
   box-shadow: 0 1rem 1rem rgb(39, 38, 38);
 }
 
